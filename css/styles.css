@@ -38,7 +38,7 @@
 
   /** Header line color */
   --header-line-cl: #e7e9fc;
-  --header-underline-link-bgcl: #404BBF;
+  --header-underline-link-bgcl: #404bbf;
 
   /** Cards */
   --cards-bgcl: #ffffff;
@@ -57,32 +57,32 @@
 
   /** Modal window */
   --modal-backdrop-bgcl: rgba(46, 47, 66, 0.4);
-  --modal-window-bgcl: #FCFCFC;
-  --modal-button-icon-cl: #2E2F42;
-  --modal-button-accent-icon-cl: #FFFFFF;
-  --modal-button-bgcl: #E7E9FC;
-  --modal-button-accent-bgcl: #404BBF;
+  --modal-window-bgcl: #fcfcfc;
+  --modal-button-icon-cl: #2e2f42;
+  --modal-button-accent-icon-cl: #ffffff;
+  --modal-button-bgcl: #e7e9fc;
+  --modal-button-accent-bgcl: #404bbf;
 
   /** Form  */
-  --form-primary-txt-cl: #8E8F99;
-  --form-secondary-txt-cl: #4D5AE5;
+  --form-primary-txt-cl: #8e8f99;
+  --form-secondary-txt-cl: #4d5ae5;
   --form-input-border-cl: rgba(46, 47, 66, 0.4);
-  --form-focus-border-cl: #4D5AE5;
-  --form-icon-fil:#2E2F42;
-  --form-focus-icon-fill: #4D5AE5;
+  --form-focus-border-cl: #4d5ae5;
+  --form-icon-fil: #2e2f42;
+  --form-focus-icon-fill: #4d5ae5;
   --form-comment-placeholder-txt-cl: rgba(46, 47, 66, 0.4);
   --form-checkbox-border-cl: rgba(46, 47, 66, 0.4);
-  --form-checkbox-accent-bgcl: #404BBF;
-  --form-icon-fake-checkbox-fill: #F4F4FD;
-  --form-submit-bgcl: #4d5ae5;  
+  --form-checkbox-accent-bgcl: #404bbf;
+  --form-icon-fake-checkbox-fill: #f4f4fd;
+  --form-submit-bgcl: #4d5ae5;
   --form-accent-submit-bgcl: #404bbf;
   --form-submit-txt-cl: #ffffff;
   --footer-form-border-cl: #ffffff;
 
   /** Portfolio cards overlay */
-  --cards-overlay-bgcl: #4D5AE5;
-  --portfolio-overlay-txt-cl: #F4F4FD;  
-  }
+  --cards-overlay-bgcl: #4d5ae5;
+  --portfolio-overlay-txt-cl: #f4f4fd;
+}
 
 .page {
   font-family: var(--primary-font);
@@ -135,41 +135,33 @@ button {
 
 /** === General === */
 
-.container {  
+.container {
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
 }
-
-
-
-
 
 @media screen and (min-width: 428px) {
   .container {
     width: 428px;
-    background-color: blue; 
+    background-color: blue;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
-    background-color: red; 
+    background-color: red;
   }
 }
 
 @media screen and (min-width: 1158px) {
   .container {
     width: 1158px;
-    background-color: green; 
+    background-color: green;
   }
 }
-
-
-
-
 
 .section {
   padding-top: 120px;
@@ -302,7 +294,7 @@ button {
 .nav-list .link,
 .nav-list .link.current,
 .address-list .link {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-link {
@@ -320,16 +312,16 @@ button {
   position: relative;
 }
 
-.nav-link.current::after{  
-  content: "";
+.nav-link.current::after {
+  content: '';
 
-  position: absolute; 
+  position: absolute;
   left: 0px;
   bottom: -1px;
-      
+
   width: 100%;
   height: 4px;
-  
+
   background-color: var(--header-underline-link-bgcl);
 
   border-radius: 2px;
@@ -339,7 +331,7 @@ button {
 
 /**========== Hero ========== */
 
-.overlay { 
+.overlay {
   margin-left: auto;
   margin-right: auto;
 
@@ -396,7 +388,7 @@ button {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover,
@@ -521,7 +513,7 @@ button {
 
   border-radius: 50%;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-social-link:hover,
@@ -562,7 +554,8 @@ button {
 
   color: var(--customers-links-cl);
 
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-link:hover,
@@ -625,7 +618,7 @@ button {
 /**========== Footer (social) ==========*/
 
 .social-media {
-  margin-bottom: 16px;  
+  margin-bottom: 16px;
 
   font-weight: 500;
   font-size: 16px;
@@ -656,10 +649,10 @@ button {
 
   color: var(--social-links-cl);
   background-color: var(--social-links-bgcl);
-  
+
   border-radius: 50%;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-link:hover,
@@ -699,7 +692,7 @@ button {
 .footer-form-input {
   width: 264px;
   height: 40px;
-  padding: 8px 16px;  
+  padding: 8px 16px;
 
   color: var(--footer-form-txt-cl);
   background-color: transparent;
@@ -709,7 +702,7 @@ button {
   border-radius: 4px;
 }
 
-.footer-form-input::placeholder {    
+.footer-form-input::placeholder {
   font-weight: 400;
   font-size: 12px;
   line-height: calc(24 / 12);
@@ -720,7 +713,7 @@ button {
 .footer-form-submit {
   display: flex;
   align-items: center;
-  
+
   min-width: 165px;
   height: 40px;
   padding: 8px 24px;
@@ -733,7 +726,7 @@ button {
 
   color: var(--footer-form-txt-cl);
   background-color: var(--form-submit-bgcl);
-  border: none;  
+  border: none;
   border-radius: 4px;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -788,7 +781,10 @@ button {
   border: 1px solid var(--btns-portfolio-border-cl);
   border-radius: 4px;
 
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-btn:is(:hover, :focus) {
@@ -817,7 +813,7 @@ button {
 .portfolio-cards .link {
   display: block;
 
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);  
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-cards .link:hover {
@@ -841,29 +837,29 @@ button {
 }
 
 .overlay-text {
-  position: absolute;  
+  position: absolute;
   top: 0px;
   left: 0px;
 
-  transform: translate(0%, 100%);    
+  transform: translate(0%, 100%);
 
-  padding: 40px 32px;    
+  padding: 40px 32px;
 
   width: 100%;
   height: 100%;
-    
+
   color: var(--portfolio-overlay-txt-cl);
-  background-color: var(--cards-overlay-bgcl);  
-  
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);  
+  background-color: var(--cards-overlay-bgcl);
+
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   overflow: auto;
 }
 
 .portfolio-cards-link:hover .overlay-text,
 .portfolio-cards-link:focus .overlay-text {
-  transform: translate(0%, 0%);  
-} 
+  transform: translate(0%, 0%);
+}
 
 /** ========== Modal window ========== */
 
@@ -876,10 +872,11 @@ button {
 
   width: 100%;
   height: 100%;
-  
-  background-color: var(--modal-backdrop-bgcl); 
 
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);  
+  background-color: var(--modal-backdrop-bgcl);
+
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
@@ -894,18 +891,19 @@ button {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
 
-  width: 408px;   
+  width: 408px;
 
-  padding: 72px 24px 24px;  
-  
+  padding: 72px 24px 24px;
+
   background-color: var(--modal-window-bgcl);
 
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;  
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 }
 
 .modal-close-btn {
-  position: absolute;  
+  position: absolute;
   top: 24px;
   right: 24px;
 
@@ -915,8 +913,8 @@ button {
 
   width: 24px;
   height: 24px;
-  
-  padding: 0;  
+
+  padding: 0;
 
   color: var(--modal-button-icon-cl);
   background-color: var(--modal-button-bgcl);
@@ -924,7 +922,8 @@ button {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
 
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-btn:is(:hover, :focus) {
@@ -941,9 +940,9 @@ button {
 
 /** ========== Modal window form========== */
 
-.modal-form-uppertext {  
+.modal-form-uppertext {
   margin-bottom: 16px;
-  
+
   font-weight: 500;
   font-size: 16px;
   line-height: calc(24 / 16);
@@ -966,8 +965,8 @@ button {
 .modal-form-input-desc,
 .modal-form-comment-desc,
 .modal-form-input,
-.modal-form-comment { 
-  display: block; 
+.modal-form-comment {
+  display: block;
   width: 100%;
 }
 
@@ -983,7 +982,7 @@ button {
   border: 1px solid var(--form-input-border-cl);
   border-radius: 4px;
 
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);  
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-input:focus,
@@ -997,17 +996,17 @@ button {
 }
 
 .modal-form-input-wrap .icon {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-input {  
-  padding: 8px 16px 8px 38px;  
+.modal-form-input {
+  padding: 8px 16px 8px 38px;
   height: 40px;
 }
 
 .modal-form-comment {
   padding: 8px 16px;
-  height: 120px; 
+  height: 120px;
 
   resize: none;
 }
@@ -1021,7 +1020,7 @@ button {
   letter-spacing: 0.04em;
 }
 
-.modal-form-comment::placeholder {  
+.modal-form-comment::placeholder {
   color: var(--form-comment-placeholder-txt-cl);
 }
 
@@ -1044,7 +1043,7 @@ button {
 
 .modal-form-check-group {
   position: relative;
-  display: block;  
+  display: block;
 
   margin-bottom: 24px;
 }
@@ -1067,25 +1066,26 @@ button {
 
   border: 1px solid var(--form-checkbox-border-cl);
   border-radius: 2px;
-  cursor: pointer;  
+  cursor: pointer;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-check {
   width: 10px;
   height: 8px;
-  
+
   fill: currentColor;
 
   opacity: 0;
 
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-  
+
 .modal-form-check:checked + .modal-form-fake-checkbox {
   background-color: var(--form-checkbox-accent-bgcl);
-  border-color: var(--form-checkbox-accent-bgcl);  
+  border-color: var(--form-checkbox-accent-bgcl);
 }
 
 .modal-form-check:focus + .modal-form-fake-checkbox {
@@ -1097,10 +1097,10 @@ button {
 }
 
 .modal-form-check-desc {
-  display: block;  
-  
+  display: block;
+
   padding-left: 24px;
-  
+
   font-weight: 400;
   font-size: 12px;
   line-height: calc(14 / 12);
@@ -1137,7 +1137,7 @@ button {
   border: none;
   border-radius: 4px;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-submit:is(:hover, :focus) {
