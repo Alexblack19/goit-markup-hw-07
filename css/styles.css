@@ -218,6 +218,20 @@ button {
 
 /**========== Header ==========*/
 
+/*TODO ===== mobile Header ====== */
+
+@media screen and (min-width: 428px) {
+
+
+}
+
+
+
+
+/*TODO ===== tablet Header ===== */
+
+/*qwerty ===== desktop Header ===== */
+
 .header > .container {
   display: flex;
   align-items: center;
