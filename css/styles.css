@@ -242,6 +242,21 @@ button {
   justify-content: space-between;
 }
 
+.header-logo {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--primary-logo-cl);
+}
+
+.header-logo-studio {
+  color: var(--secondary-logo-cl);
+}
+
 .mobile-menu-open {
     padding: 0;
 
