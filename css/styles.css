@@ -135,33 +135,12 @@ button {
 
 /** === General === */
 
-.container {
+/* .container {
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-}
-
-@media screen and (min-width: 428px) {
-  .container {
-    width: 428px;
-    background-color: tomato;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-    background-color: orange;
-  }
-}
-
-@media screen and (min-width: 1158px) {
-  .container {
-    width: 1158px;
-    background-color: green;
-  }
-}
+} */
 
 .section {
   padding-top: 120px;
@@ -218,11 +197,38 @@ button {
 
 /**========== Header ==========*/
 
-@media screen and (min-width: 768px) {
-  
+.container {  
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px; 
+  background-color: aqua; 
 }
 
-.header > .container {
+@media screen and (min-width: 428px) {
+  .container {
+    width: 426px;
+    margin-left: auto;
+    margin-right: auto;        
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .header > .container {
   display: flex;
   align-items: center;
 }
@@ -308,11 +314,11 @@ button {
   letter-spacing: 0.02em;
 
   color: currentColor;
-}
+} */
 
 /** ===== Header line link navigation ===== */
 
-.nav-item {
+/* .nav-item {
   position: relative;
 }
 
@@ -331,7 +337,7 @@ button {
   border-radius: 2px;
 
   transform: scale(1);
-}
+} */
 
 /**========== Hero ========== */
 
