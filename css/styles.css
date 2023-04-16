@@ -55,6 +55,9 @@
   --customers-border-links-accent-cl: #404bbf;
   --social-links-accent-footer-bgcl: #31d0aa;
 
+  /** Mobile menu icons color */
+  --menu-burger-icon: #2E2F42;
+
   /** Modal window */
   --modal-backdrop-bgcl: rgba(46, 47, 66, 0.4);
   --modal-window-bgcl: #fcfcfc;
@@ -135,12 +138,51 @@ button {
 
 /** === General === */
 
-/* .container {
+
+/**========= START 16/04/23 ========== */
+
+.container {  
   padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-} */
+  padding-right: 15px;   
+}
+
+@media screen and (min-width: 428px) {
+  .container {
+    width: 426px;
+    margin-left: auto;
+    margin-right: auto;        
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 766px;           
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    width: 1158px;           
+  }
+}
+
+/**========= END 16/04/23 ========== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .section {
   padding-top: 120px;
@@ -197,29 +239,33 @@ button {
 
 /**========== Header ==========*/
 
-.container {  
-  width: 100%;
-  padding-left: 15px;
-  padding-right: 15px; 
-  background-color: aqua; 
+
+
+
+/**========= START 16/04/23 ========== */
+
+.mobile-menu-open {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: transparent;
+  padding: 0;
+  border: none;
+
+}
+.mobile-icon-burger {
+  width: 32px;
+  height: 22px;
+  stroke: var(--menu-burger-icon);  
 }
 
-@media screen and (min-width: 428px) {
-  .container {
-    width: 426px;
-    margin-left: auto;
-    margin-right: auto;        
-  }
+.nav-list,
+.address {
+  display: none;
 }
 
-
-
-
-
-
-
-
-
+/**========= END 16/04/23 ========= */
 
 
 
