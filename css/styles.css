@@ -11,12 +11,13 @@
   /** Text colors */
   --primary-txt-cl: #434455;
   --secondary-txt-cl: #2e2f42;
+  --mobile-tel-txt-cl: #4D5AE5;
   --hero-txt-cl: #ffffff;
   --footer-txt-cl: #f4f4fd;
   --accent-link-txt-cl: #404bbf;
   --footer-social-txt-cl: #ffffff;
   --footer-form-txt-cl: #ffffff;
-
+  
   /** Background colors */
   --page-bgcl: #ffffff;
   --hero-bgcl: #2e2f42;
@@ -40,7 +41,7 @@
   --header-line-cl: #e7e9fc;
   --header-underline-link-bgcl: #404bbf;
 
-  /** Cards */
+  /** Portfolio cards */
   --cards-bgcl: #ffffff;
   --portfolio-cards-border-cl: #e7e9fc;
 
@@ -302,7 +303,7 @@ button {
 .mobile-menu-container {
   position: relative;
   
-  padding: 80px 35px 40px 40px; 
+  padding: 80px 34px 40px 39px; 
 }
 
 .menu-close-btn {
@@ -340,11 +341,52 @@ button {
   color: var(--secondary-txt-cl);
 }
 
-.mobile-contacts .link {
-  text-decoration: none;
+.mobile-tel-link {  
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  letter-spacing: 0.02em;  
+
+  color: var(--mobile-tel-txt-cl);
 }
 
+.mobile-mail-link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  letter-spacing: 0.02em;
+  
+  color: currentColor;
+}
 
+.menu-social-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 56px;
+}
+
+.menu-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-basis: calc((100% / 168px)/4); */
+  
+  width: 40px;
+  height: 40px;
+
+  border-radius: 50%;
+
+  color: var(--social-links-cl);
+  background-color: var(--social-links-bgcl);
+}
+
+.menu-social-item .icon{
+  width: 24px;
+  height: 24px;
+
+  fill: currentColor;
+}
+  
 
 
 
