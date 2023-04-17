@@ -219,9 +219,9 @@ button {
   letter-spacing: 0.02em;
 } */
 
-/**========== Header ==========*/
+/**========== HEADER ==========*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .nav-list,
   .address {
     display: none;
@@ -254,7 +254,8 @@ button {
   color: var(--secondary-logo-cl);
 }
 
-.mobile-menu-open {
+@media screen and (max-width: 767px) {
+  .mobile-menu-open {
     padding: 0;
 
     line-height: 0;    
@@ -269,8 +270,94 @@ button {
     height: 22px;
     stroke: var(--menu-burger-icon);
   }
+}
 
-/**========= END 16/04/23 ========= */
+/*todo ===== Header mobile menu (start) ===== */
+
+@media screen and (max-width: 767px) {
+  .mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: var(--mobile-menu-bgcl);
+  
+  opacity: 0; 
+  visibility: hidden;
+  pointer-events: none;
+
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.js-menu-container.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.mobile-menu-container {
+  position: relative;
+  
+  padding: 80px 35px 40px 40px; 
+}
+
+.menu-close-btn {
+  position: absolute;
+  top: 24px;
+  right: 18px;
+
+  padding: 0;
+  
+  width: 24px;
+  height: 24px;
+
+  line-height: 0;   
+
+  background-color: transparent;
+
+  border: 1px solid var(--border-close-btn);
+  border-radius: 50%;
+}
+
+.icon-close-menu {
+  width: 8px;
+  height: 8px;
+  
+  fill: var(--icon-close-menu-fill);
+}
+
+
+
+
+
+
+
+
+}
+/*todo ===== Header mobile menu (end) ===== */
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+
+  .mobile-menu-open {
+    display: none;
+  }
+}
+
+
 
 /* .header > .container {
   display: flex;
@@ -362,7 +449,7 @@ button {
   color: currentColor;
 } */
 
-/** ===== Header line link navigation ===== */
+/*todo ===== Header line link navigation (start) ===== */
 
 /* .nav-item {
   position: relative;
@@ -384,66 +471,7 @@ button {
 
   transform: scale(1);
 } */
-
-
-
-
-/** ===== Header mobile menu ===== */
-
-.mobile-menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100;
-
-  width: 100%;
-  height: 100%;
-
-  background-color: var(--mobile-menu-bgcl);
-
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.js-menu-container.is-open {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-}
-
-.mobile-menu-container {
-  position: relative;
-  
-  padding: 80px 35px 40px 40px; 
-}
-
-.menu-close-btn {
-  position: absolute;
-  top: 24px;
-  right: 18px;
-
-  padding: 0;
-  
-  width: 24px;
-  height: 24px;
-
-  line-height: 0;   
-
-  background-color: transparent;
-
-  border: 1px solid var(--border-close-btn);
-  border-radius: 50%;
-}
-
-.icon-close-menu {
-  width: 8px;
-  height: 8px;
-  
-  fill: var(--icon-close-menu-fill);
-}
+/*todo ===== Header line link navigation (end) ===== */
 
 
 
@@ -477,9 +505,7 @@ button {
 
 
 
-
-
-/**========== Hero ========== */
+/**========== HERO ========== */
 
 .overlay {
   margin-left: auto;
