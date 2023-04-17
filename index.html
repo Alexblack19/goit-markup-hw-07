@@ -45,28 +45,14 @@
           </ul>
         </nav>
 
-
-
-
-
-        <button class="mobile-menu-open" type="button">
+        <button
+          class="mobile-menu-open js-open-menu"
+          type="button"          
+        >
           <svg class="mobile-icon-burger">
             <use href="./images/icons.svg#icon-burger"></use>
           </svg>
         </button>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         <address class="address">
           <ul class="address-list list">
@@ -84,7 +70,23 @@
         </address>
       </div>
 
-      <div class="mobile-menu"></div>
+      <div class="mobile-menu js-menu-container">
+        <div class="container mobile-menu-container">
+          <button class="menu-close-btn js-close-menu">
+            <svg class="icon-close-menu">
+              <use href="./images/icons.svg#icon-close-menu"></use>
+            </svg>
+          </button>
+
+          <ul class="list">
+            <li class="item"><a class="link" href="./index.html">Studio</a></li>
+            <li class="item">
+              <a class="link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="item"><a class="link" href="#">Contacts</a></li>
+          </ul>
+        </div>
+      </div>
     </header>
 
     <main class="main">
@@ -712,6 +714,7 @@
       </div>
     </div>
 
+    <script src="./js/mobile-menu.js" type="module"></script>
     <script src="./js/modal.js" type="module"></script>
   </body>
 </html>
