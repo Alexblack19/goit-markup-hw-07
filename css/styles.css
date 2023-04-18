@@ -184,6 +184,14 @@ button {
   }
 }
 
+@media screen and (max-width: 1158px) {
+  .section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+}
+
+
 /* 
 .section {
   padding-top: 120px;
@@ -693,11 +701,6 @@ button {
 @media screen and (max-width: 1158px) {
   .feature-icon {
     display: none;
-  }
-
-  .section {
-    padding-top: 96px;
-    padding-bottom: 96px;
   }
 }
 
