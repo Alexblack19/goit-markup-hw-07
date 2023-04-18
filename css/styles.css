@@ -444,6 +444,12 @@ button {
 }
 /*todo ===== Header mobile menu (end) ===== */
 
+@media screen and (min-width: 768px) and (max-width: 768px) {
+  .address {
+    display: contents;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .mobile-menu {
     display: none;
