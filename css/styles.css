@@ -228,7 +228,7 @@ button {
 
 /**========== HEADER ==========*/
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .nav-list,
   .address {
     display: none;
@@ -245,7 +245,7 @@ button {
   align-items: center;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .header > .container {
     justify-content: space-between;
   }
@@ -266,7 +266,7 @@ button {
   color: var(--secondary-logo-cl);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .mobile-menu-open {
     padding: 0;
 
@@ -293,7 +293,7 @@ button {
 
 /*todo ===== Header mobile menu (start) ===== */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .mobile-menu {
     position: fixed;
     top: 0;
@@ -581,7 +581,7 @@ button {
 
 /**========== HERO ========== */
 
-@media screen and (max-width: 767px), (min-width: 768px) {
+@media screen and (max-width: 768px), (min-width: 768px) {
   .overlay {
     margin-left: auto;
     margin-right: auto;
@@ -648,7 +648,7 @@ button {
 }
 
 @media screen and (min-width: 768px) {
-  .overlay {    
+  .overlay {
     max-width: 768px;
     min-height: 436px;
 
@@ -656,19 +656,39 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('../images/hero/people-office-tablet.jpg');    
+      url('../images/hero/people-office-tablet.jpg');
   }
 
+  .hero-title {
+    margin-bottom: 36px;
 
+    max-width: 496px;
 
+    font-size: 56px;
+    line-height: calc(60 / 56);
+  }
+}
 
+@media screen and (min-width: 1158px) {
+  .overlay {
+    max-width: 1440px;
+    min-height: 600px;
 
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../images/hero/people-office-desktop.jpg');
+  }
 
+  .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
 
-
-
-
-  
+  .hero-title {
+    margin-bottom: 48px;
+  }
 }
 
 
@@ -688,72 +708,6 @@ button {
 
 
 
-
-
-/* .overlay {
-  margin-left: auto;
-  margin-right: auto;
-
-  max-width: 1440px;
-  min-height: 600px;
-
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url('../images/hero/people-office.jpg');
-
-  background-color: var(--hero-bgcl);
-}
-
-.hero {
-  padding-top: 188px;
-  padding-bottom: 188px;
-}
-
-.hero-title {
-  margin-bottom: 48px;
-  margin-right: auto;
-  margin-left: auto;
-
-  max-width: 496px;
-
-  font-size: 56px;
-  line-height: calc(60 / 56);
-  letter-spacing: 0.02em;
-  text-align: center;
-
-  color: var(--hero-txt-cl);
-}
-
-.hero-btn {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 16px 32px;
-
-  min-width: 169px;
-
-  font-family: inherit;
-  letter-spacing: 0.04em;
-
-  color: var(--btn-hero-txt-cl);
-  background-color: var(--btn-hero-bgcl);
-
-  border: none;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.hero-btn:hover,
-.hero-btn:focus {
-  background-color: var(--accent-btns-bgcl);
-} */
 
 /**========== Feature ==========*/
 
@@ -1221,6 +1175,14 @@ button {
 }
 
 /** ========== Modal window ========== */
+
+@media screen and (max-width: 767px), (min-width: 768px) {
+
+}
+
+
+
+
 
 .backdrop {
   position: fixed;
