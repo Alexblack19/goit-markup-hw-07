@@ -338,6 +338,10 @@ button {
     top: 24px;
     right: 18px;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     padding: 0;
 
     width: 24px;
@@ -356,8 +360,8 @@ button {
   }
 
   .icon-close-menu {
-    width: 8px;
-    height: 8px;
+    /* width: 8px;
+    height: 8px; */
 
     fill: currentColor;
   }
