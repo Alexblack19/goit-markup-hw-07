@@ -327,31 +327,16 @@ button {
   }
 
   .mobile-menu-container {
-    position: relative;    
-    
+    position: relative;
+
     padding: 80px 34px 40px 39px;
   }
 
-  .mobile-menu-wrap {
+  /* .mobile-menu-wrap {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
     justify-content: space-between;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
+  } */
 
   .menu-close-btn {
     position: absolute;
@@ -760,6 +745,8 @@ button {
     display: none;
   }
 }
+
+
 
 /* .feature-list {
   display: flex;
@@ -1206,8 +1193,6 @@ button {
 .portfolio-cards-link:focus .overlay-text {
   transform: translate(0%, 0%);
 }
-
-
 
 /** =========  ++++ Модалка готова +++++ ==========*/
 
