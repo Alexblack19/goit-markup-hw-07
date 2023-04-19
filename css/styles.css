@@ -276,6 +276,10 @@ button {
 
 @media screen and (max-width: 768px) {
   .mobile-menu-open {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     padding: 0;
 
     line-height: 0;
@@ -285,9 +289,7 @@ button {
     border: none;
   }
 
-  .mobile-icon-burger {
-    width: 32px;
-    height: 22px;
+  .mobile-icon-burger {    
     stroke: var(--menu-burger-icon);
   }
 }
@@ -360,9 +362,6 @@ button {
   }
 
   .icon-close-menu {
-    /* width: 8px;
-    height: 8px; */
-
     fill: currentColor;
   }
 
@@ -729,11 +728,6 @@ button {
   flex-basis: calc((100% - 72px) / 4);
 }
 
-.feature .icon {
-  width: 64px;
-  height: 64px;
-}
-
 .feature-icon {
   display: flex;
   justify-content: center;
@@ -843,10 +837,7 @@ button {
   background-color: var(--social-links-accent-bgcl);
 }
 
-.team .icon {
-  width: 16px;
-  height: 16px;
-
+.team .icon { 
   fill: currentColor;
 }
 
@@ -886,10 +877,7 @@ button {
   color: var(--customers-links-accent-cl);
 }
 
-.client-logo {
-  width: 104px;
-  height: 56px;
-
+.client-logo {  
   fill: currentColor;
 }
 
@@ -982,10 +970,7 @@ button {
   background-color: var(--social-links-accent-footer-bgcl);
 }
 
-.footer .icon {
-  width: 24px;
-  height: 24px;
-
+.footer .icon {  
   fill: currentColor;
 }
 
@@ -1060,9 +1045,6 @@ button {
 
 .icon-subscribe {
   margin-left: 16px;
-
-  width: 24px;
-  height: 24px;
 
   fill: currentColor;
 }
@@ -1216,9 +1198,7 @@ button {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
 
-  width: 408px;
-  /* width: 100%;
-  height: 100%; */
+  width: 408px;  
 
   padding: 72px 24px 24px;
 
@@ -1259,9 +1239,6 @@ button {
 }
 
 .icon-close-modal {
-  width: 8px;
-  height: 8px;
-
   fill: currentColor;
 }
 
@@ -1362,9 +1339,6 @@ button {
   left: 16px;
   transform: translateY(-50%);
 
-  width: 18px;
-  height: 24px;
-
   fill: var(--form-icon-fil);
 }
 
@@ -1399,10 +1373,7 @@ button {
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-check {
-  width: 10px;
-  height: 8px;
-
+.icon-check { 
   fill: currentColor;
 
   opacity: 0;
