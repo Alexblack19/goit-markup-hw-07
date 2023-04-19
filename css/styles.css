@@ -328,6 +328,9 @@ button {
 
   .mobile-menu-container {
     position: relative;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
 
     padding: 80px 34px 40px 39px;
   }
@@ -367,9 +370,9 @@ button {
     background-color: var(--menu-close-btn-accent-bgcl);
   }
 
-  .mobile-nav {
-    margin-bottom: 284px;
-  }
+  /* .mobile-nav {
+    margin-bottom: 284px;    
+  } */
 
   .mobile-nav .item:not(:last-child) {
     padding-bottom: 40px;
