@@ -203,23 +203,10 @@ button {
   color: var(--secondary-txt-cl);
 }
 
-
 /* 
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
-}
-
-.section .title {
-  margin-bottom: 72px;
-
-  font-size: 36px;
-  line-height: calc(40 / 36);
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  text-align: center;
-
-  color: var(--secondary-txt-cl);
 }
 
 .section .subtitle {
@@ -299,7 +286,7 @@ button {
     border: none;
   }
 
-  .mobile-icon-burger {    
+  .mobile-icon-burger {
     stroke: var(--menu-burger-icon);
   }
 }
@@ -625,6 +612,18 @@ button {
     background-color: var(--hero-bgcl);
   }
 
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .overlay {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url('../images/hero/people-office-mobile-2x.jpg');
+    }
+  }
+
   .hero {
     padding-top: 112px;
     padding-bottom: 112px;
@@ -680,6 +679,18 @@ button {
       url('../images/hero/people-office-tablet.jpg');
   }
 
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .overlay {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url('../images/hero/people-office-tablet-2x.jpg');
+    }
+  }
+
   .hero-title {
     margin-bottom: 36px;
 
@@ -699,6 +710,18 @@ button {
       url('../images/hero/people-office-desktop.jpg');
   }
 
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .overlay {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url('../images/hero/people-office-desktop-2x.jpg');
+    }
+  }
+
   .hero {
     padding-top: 188px;
     padding-bottom: 188px;
@@ -716,18 +739,6 @@ button {
     display: none;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* .feature-list {
   display: flex;
@@ -847,7 +858,7 @@ button {
   background-color: var(--social-links-accent-bgcl);
 }
 
-.team .icon { 
+.team .icon {
   fill: currentColor;
 }
 
@@ -887,7 +898,7 @@ button {
   color: var(--customers-links-accent-cl);
 }
 
-.client-logo {  
+.client-logo {
   fill: currentColor;
 }
 
@@ -980,7 +991,7 @@ button {
   background-color: var(--social-links-accent-footer-bgcl);
 }
 
-.footer .icon {  
+.footer .icon {
   fill: currentColor;
 }
 
@@ -1174,11 +1185,6 @@ button {
 .portfolio-cards-link:focus .overlay-text {
   transform: translate(0%, 0%);
 }
-
-
-
-
-
 
 /** Модалка готова +++++ */
 
@@ -1394,7 +1400,7 @@ button {
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-check { 
+.icon-check {
   fill: currentColor;
 
   opacity: 0;
