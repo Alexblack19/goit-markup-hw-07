@@ -328,11 +328,16 @@ button {
 
   .mobile-menu-container {
     position: relative;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-between; */
-
+    width: 100vw;
+    height: 100vh;
+    
     padding: 80px 34px 40px 39px;
+  }
+
+  .mobile-menu-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .menu-close-btn {
