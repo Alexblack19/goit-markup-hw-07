@@ -191,14 +191,24 @@ button {
   }
 }
 
+.section .title {
+  margin-bottom: 72px;
+
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+
+  color: var(--secondary-txt-cl);
+}
+
 
 /* 
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-
-
 
 .section .title {
   margin-bottom: 72px;
