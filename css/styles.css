@@ -607,7 +607,7 @@ button {
   .overlay {
     margin-left: auto;
     margin-right: auto;
-    
+
     max-width: 428px;
 
     background-size: cover;
@@ -635,49 +635,49 @@ button {
   }
 }
 
-  .hero {
-    padding-top: 112px;
-    padding-bottom: 112px;
-  }
+.hero {
+  padding-top: 112px;
+  padding-bottom: 112px;
+}
 
-  .hero-title {
-    margin-bottom: 72px;
-    margin-right: auto;
-    margin-left: auto;
+.hero-title {
+  margin-bottom: 72px;
+  margin-right: auto;
+  margin-left: auto;
 
-    max-width: 320px;
+  max-width: 320px;
 
-    font-size: 36px;
-    line-height: calc(40 / 36);
-    letter-spacing: 0.02em;
-    text-align: center;
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  letter-spacing: 0.02em;
+  text-align: center;
 
-    color: var(--hero-txt-cl);
-  }
+  color: var(--hero-txt-cl);
+}
 
-  .hero-btn {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 16px 32px;
+.hero-btn {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 16px 32px;
 
-    min-width: 169px;
+  min-width: 169px;
 
-    font-family: inherit;    
+  font-family: inherit;
 
-    color: var(--btn-hero-txt-cl);
-    background-color: var(--btn-hero-bgcl);
+  color: var(--btn-hero-txt-cl);
+  background-color: var(--btn-hero-bgcl);
 
-    border: none;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-  .hero-btn:is(:hover, :focus) {
-    background-color: var(--accent-btns-bgcl);
-  }
+.hero-btn:is(:hover, :focus) {
+  background-color: var(--accent-btns-bgcl);
+}
 
 @media screen and (min-width: 768px) {
   .overlay {
@@ -715,7 +715,7 @@ button {
 @media screen and (min-width: 1158px) {
   .overlay {
     max-width: 1440px;
-    
+
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -753,19 +753,23 @@ button {
   }
 }
 
-@media screen and (max-width: 768px) {
-  .feature-item:not(:last-child) {
-    margin-bottom: 72px;
-  }
-
+.feature-item:not(:last-child) {
+  margin-bottom: 72px;
 }
 
+.feature-subtitle {
+  text-align: center;
+}
 
-  /* .feature-subtitle {
-    text-align: center;
-  } */
+@media screen and (min-width: 768px) {
+  .feature-item:not(:last-child) {
+    margin-bottom: 0;
+  }
 
-
+  .feature-subtitle {
+    text-align: left;
+  }
+}
 
 
 
@@ -1087,7 +1091,7 @@ button {
   height: 40px;
   padding: 8px 24px;
 
-  text-align: left;  
+  text-align: left;
 
   color: var(--footer-form-txt-cl);
   background-color: var(--form-submit-bgcl);
@@ -1486,7 +1490,7 @@ button {
   min-width: 169px;
 
   padding: 16px 32px;
-  
+
   color: var(--form-submit-txt-cl);
   background-color: var(--form-submit-bgcl);
 
