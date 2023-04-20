@@ -162,25 +162,25 @@ button {
 .container {
   padding-left: 15px;
   padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (min-width: 428px) {
   .container {
-    width: 426px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 426px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 766px;
+    max-width: 766px;
   }
 }
 
 @media screen and (min-width: 1158px) {
   .container {
-    width: 1158px;
+    max-width: 1158px;
   }
 }
 
@@ -188,6 +188,13 @@ button {
   .section {
     padding-top: 96px;
     padding-bottom: 96px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 }
 
@@ -203,21 +210,21 @@ button {
   color: var(--secondary-txt-cl);
 }
 
-/* 
-.section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
 .section .subtitle {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: calc(24 / 20);
+  font-size: 36px;
+  line-height: calc(40 / 36);
   letter-spacing: 0.02em;
 
   color: var(--secondary-txt-cl);
 }
- */
+
+@media screen and (min-width: 1158px) {
+  .section .subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: calc(24 / 20);
+  }
+}
 
 .btn {
   font-weight: 500;
@@ -334,7 +341,7 @@ button {
 
   .mobile-menu-wrap {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
     /* justify-content: space-between; */
 
     height: 100vh;
@@ -344,11 +351,6 @@ button {
     margin-top: auto;
   }
 
-
-
-
-
-  
   .menu-close-btn {
     position: absolute;
     top: 24px;
