@@ -344,15 +344,8 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
-  
 
-    height: 100vh;
-    
-  }
-
-  .mobile-nav {
-    bottom: 7.96vh;
+    /* height: 100vh; */
   }
 
   .menu-close-btn {
@@ -754,6 +747,10 @@ button {
   .feature-icon {
     display: none;
   }
+
+  .text {
+    font-weight: 500;
+  }
 }
 
 .feature-item:not(:last-child) {
@@ -775,7 +772,9 @@ button {
 
   .feature-list {
     display: flex;
-    gap: 24px;
+    row-gap: 72px;
+    column-gap: 24px;
+
     flex-wrap: wrap;
   }
 
@@ -783,9 +782,31 @@ button {
     flex-basis: calc((100% - 24px) / 2);
   }
 }
-/**=========================  */
-/**=========================  */
-/**=========================  */
+
+@media screen and (min-width: 1158px) {
+  .feature-list {
+    gap: 24px;
+  }
+
+  .feature-item {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+
+  .feature-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 8px;
+
+    width: 100%;
+    height: 112px;
+
+    background-color: var(--feature-icons-bgcl);
+
+    border-radius: 4px;
+  }
+}
 
 /* .feature-list {
   display: flex;
@@ -814,6 +835,10 @@ button {
 .feature-subtitle {
   margin-bottom: 8px;
 } */
+
+/* ! ========================================= */
+/* ! ========================================= */
+/* ! ========================================= */
 
 /**========== What are we doing ==========*/
 
