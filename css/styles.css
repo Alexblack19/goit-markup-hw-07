@@ -301,6 +301,21 @@ button {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*todo ===== Header mobile menu (start) ===== */
 
 @media screen and (max-width: 768px) {
@@ -340,12 +355,12 @@ button {
     flex-direction: column;
     /* justify-content: space-between; */
 
-    height: 100vh;
+    /* height: 100vh; */
   }
 
-  .mobile-contacts-social-wrap {
+  /* .mobile-contacts-social-wrap {
     margin-top: auto;
-  }
+  } */
 
   .menu-close-btn {
     position: absolute;
@@ -381,11 +396,7 @@ button {
     color: var(--icon-close-menu-accent-fill);
     background-color: var(--menu-close-btn-accent-bgcl);
   }
-
-  /* .mobile-nav {
-    margin-bottom: 284px;    
-  } */
-
+  
   .mobile-nav .item:not(:last-child) {
     padding-bottom: 40px;
   }
@@ -466,6 +477,11 @@ button {
   }
 }
 /*todo ===== Header mobile menu (end) ===== */
+
+
+
+
+
 
 @media screen and (min-width: 768px) and (max-width: 768px) {
   .address {
