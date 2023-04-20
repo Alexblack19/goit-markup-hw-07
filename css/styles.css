@@ -335,11 +335,20 @@ button {
   .mobile-menu-wrap {
     display: flex;
     flex-direction: column;    
-    justify-content: space-between;
+    /* justify-content: space-between; */
 
     height: 100vh;
   }
 
+  .mobile-contacts-social-wrap {
+    margin-top: auto;
+  }
+
+
+
+
+
+  
   .menu-close-btn {
     position: absolute;
     top: 24px;
