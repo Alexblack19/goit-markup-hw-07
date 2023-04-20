@@ -166,6 +166,8 @@ button {
   margin-right: auto;
 
   max-width: 426px;
+
+  background-color: antiquewhite;
 }
 
 @media screen and (min-width: 768px) {
@@ -601,9 +603,7 @@ button {
 @media screen and (max-width: 768px), (min-width: 768px) {
   .overlay {
     margin-left: auto;
-    margin-right: auto;
-
-    width: 428px;
+    margin-right: auto;   
 
     background-size: cover;
     background-repeat: no-repeat;
@@ -628,7 +628,7 @@ button {
         url('../images/hero/people-office-mobile-2x.jpg');
     }
   }
-
+}
 
   .hero {
     padding-top: 112px;
@@ -675,7 +675,7 @@ button {
     background-color: var(--accent-btns-bgcl);
   }
 
-}
+
 
 
 
@@ -684,8 +684,6 @@ button {
 
 @media screen and (min-width: 768px) {
   .overlay {
-    width: 768px;
-
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -719,9 +717,7 @@ button {
 
 
 @media screen and (min-width: 1158px) {
-  .overlay {
-    width: 1440px;
-
+  .overlay {   
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
