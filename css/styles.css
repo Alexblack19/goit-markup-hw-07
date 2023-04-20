@@ -343,14 +343,17 @@ button {
   .mobile-menu-wrap {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
+    justify-content: space-between;
+    
+  
 
-    /* height: 100vh; */
+    height: 100vh;
+    
   }
 
-  /* .mobile-contacts-social-wrap {
-    margin-top: auto;
-  } */
+  .mobile-nav {
+    bottom: 7.96vh;
+  }
 
   .menu-close-btn {
     position: absolute;
@@ -769,21 +772,20 @@ button {
   .feature-subtitle {
     text-align: left;
   }
+
+  .feature-list {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  .feature-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/**=========================  */
+/**=========================  */
+/**=========================  */
 
 /* .feature-list {
   display: flex;
