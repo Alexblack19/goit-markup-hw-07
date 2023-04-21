@@ -167,7 +167,7 @@ button {
 
   max-width: 426px;
 
-  border: 1px solid #31d0aa;
+  background-color: antiquewhite;
 }
 
 @media screen and (min-width: 768px) {
