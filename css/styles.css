@@ -881,13 +881,17 @@ button {
   text-align: center;
 }
 
-@media screen and (min-width: 768px) and (min-width: 1158px) {
+@media screen and (min-width: 768px), (min-width: 1158px) {
   .team-list {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 64px;
+  }
+
+  .team-item {
+    flex-basis: calc((100% - 208px) / 2);
   }
 }
 
