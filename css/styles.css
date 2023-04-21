@@ -891,6 +891,7 @@ button {
   column-gap: 24px;
   row-gap: 64px;
 }
+}
 
 @media screen and (min-width: 1158px) {
 
