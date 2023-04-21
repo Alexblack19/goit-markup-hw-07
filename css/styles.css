@@ -840,10 +840,6 @@ button {
   }
 }
 
-/* ! ========================================= */
-/* ! ========================================= */
-/* ! ========================================= */
-
 /**========== Our team ==========*/
 
 .team {
@@ -854,7 +850,7 @@ button {
   display: flex;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .team-list {
     flex-direction: column;
     align-items: center;
@@ -863,8 +859,6 @@ button {
 }
 
 .team-item {
-  max-width: 264px;
-
   background-color: var(--cards-bgcl);
 
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -884,6 +878,22 @@ button {
   margin-bottom: 8px;
 
   text-align: center;
+}
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1158px) {
+  .team-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 64px;
+}
+
+@media screen and (min-width: 1158px) {
+
 }
 
 /* 
@@ -945,6 +955,15 @@ button {
 .team .icon {
   fill: currentColor;
 }
+
+
+
+/* ! ========================================= */
+/* ! ========================================= */
+/* ! ========================================= */
+
+
+
 
 /**========== Customers ==========*/
 
