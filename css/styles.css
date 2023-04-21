@@ -220,14 +220,6 @@ button {
   color: var(--secondary-txt-cl);
 }
 
-@media screen and (min-width: 1158px) {
-  .section .subtitle {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: calc(24 / 20);
-  }
-}
-
 .btn {
   font-weight: 500;
   font-size: 16px;
@@ -762,6 +754,76 @@ button {
 .feature-subtitle {
   text-align: center;
 }
+
+/* @media screen and (max-width: 1158px) {
+  .section .subtitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(40 / 36);
+  }
+} */
+
+/* 
+.section .subtitle {
+  margin-bottom: 8px;
+
+  font-weight: 500;
+
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-txt-cl);
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 768px) {
   .feature-item:not(:last-child) {
