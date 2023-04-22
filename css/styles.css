@@ -885,6 +885,9 @@ button {
 
 @media screen and (min-width: 768px) {
   .team-list {
+    flex-direction: row;
+    align-items: stretch;
+
     justify-content: center;
     flex-wrap: wrap;
     column-gap: 24px;
@@ -1019,10 +1022,8 @@ button {
   background-color: var(--footer-bgcl);
 }
 
-@media screen and (max-width: 768px) {
-  .footer-logo-text {
-    margin-bottom: 72px;
-  }
+.footer-logo-text {
+  margin-bottom: 72px;
 }
 
 .footer-logo {
@@ -1065,6 +1066,10 @@ button {
 
   .footer-logo {
     text-align: left;
+  }
+
+  .footer-logo-text {
+    margin-bottom: 0px;
   }
 }
 
