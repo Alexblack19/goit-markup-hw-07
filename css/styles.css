@@ -166,8 +166,6 @@ button {
   margin-right: auto;
 
   max-width: 426px;
-
-  background-color: antiquewhite;
 }
 
 @media screen and (min-width: 768px) {
@@ -1021,8 +1019,10 @@ button {
   background-color: var(--footer-bgcl);
 }
 
-.footer-logo-text {
-  margin-bottom: 72px;
+@media screen and (max-width: 768px) {
+  .footer-logo-text {
+    margin-bottom: 72px;
+  }
 }
 
 .footer-logo {
@@ -1061,14 +1061,10 @@ button {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
-    
   }
 
   .footer-logo {
     text-align: left;
-  }
-
-  .footer-logo-text {
   }
 }
 
@@ -1189,6 +1185,12 @@ button {
   border-radius: 4px;
 
   opacity: 0.3;
+}
+
+@media screen and (min-width: 1158px) {
+  .footer-form-input {
+    opacity: 1;
+  }
 }
 
 .footer-form-input::placeholder {
