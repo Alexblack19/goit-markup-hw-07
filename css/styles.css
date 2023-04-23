@@ -329,11 +329,11 @@ button {
   .mobile-menu-container {
     position: relative;
 
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 100vw;
-    height: 100vh; */
+    height: 100vh;
 
     padding: 80px 34px 40px 39px;
   }
