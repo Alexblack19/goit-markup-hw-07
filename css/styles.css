@@ -1678,25 +1678,3 @@ button {
   background-color: var(--form-accent-submit-bgcl);
 }
 
-/** ====================== */
-.block {
-  display: flex;
-  flex-direction: column;
-  /* justify-content: space-between; */
-
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 400px;
-  height: 200px;
-  border: 2px solid tomato;
-  margin-left: auto;
-  margin-right: auto;
-}
-.block-1 {
-  /* margin-right: auto; */
-  background-color: #31d0aa;
-}
-.block-2 {
-  margin-top: auto;
-  background-color: #4d5ae5;
-}
