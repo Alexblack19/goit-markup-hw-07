@@ -338,10 +338,6 @@ button {
     padding: 80px 34px 40px 39px;
   }
 
-  /* .mobile-contacts {
-    margin-top: 50px;
-  } */
-
   .menu-close-btn {
     position: absolute;
     top: 24px;
@@ -414,6 +410,12 @@ button {
     color: var(--mobile-tel-txt-cl);
   }
 
+  @media screen and (max-width: 428px) {
+    .mobile-tel-link {
+      font-size: 25px;
+    }
+  }
+
   .mobile-mail-link {
     font-weight: 500;
     font-size: 20px;
@@ -427,6 +429,12 @@ button {
     display: flex;
     flex-wrap: wrap;
     gap: 56px;
+  }
+
+  @media screen and (max-width: 402px) {
+    .menu-social-list {
+      gap: 28px;
+    }
   }
 
   .menu-social-link {
@@ -1248,7 +1256,7 @@ button {
     text-align: left;
   }
 
-  .footer-form-input {    
+  .footer-form-input {
     width: 264px;
   }
 }
@@ -1667,4 +1675,27 @@ button {
 
 .modal-form-submit:is(:hover, :focus) {
   background-color: var(--form-accent-submit-bgcl);
+}
+
+/** ====================== */
+.block {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 400px;
+  height: 200px;
+  border: 2px solid tomato;
+  margin-left: auto;
+  margin-right: auto;
+}
+.block-1 {
+  /* margin-right: auto; */
+  background-color: #31d0aa;
+}
+.block-2 {
+  margin-top: auto;
+  background-color: #4d5ae5;
 }
