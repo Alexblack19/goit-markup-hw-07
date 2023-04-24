@@ -878,7 +878,7 @@ button {
 }
 
 .team-txt-card {
-  padding: 32px 0px;
+  padding: 32px 16px;
 }
 
 .team-text {
@@ -927,10 +927,7 @@ button {
 
 .team-social-list {
   display: flex;
-  justify-content: center;
-  /* gap: 24px; */
-  gap: calc((100% - (4 * 40px)) / 3);
-  max-width: 232px;
+  justify-content: space-between;
 }
 
 .team-social-link {
