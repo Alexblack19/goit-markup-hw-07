@@ -427,7 +427,7 @@ button {
 
   .menu-social-list {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     gap: calc((100% - (4 * 40px)) / 3);
     max-width: 328px;
   }
