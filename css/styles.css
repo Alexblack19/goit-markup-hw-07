@@ -928,7 +928,9 @@ button {
 .team-social-list {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  /* gap: 24px; */
+  gap: calc((100% - (4 * 40px)) / 3);
+  max-width: 232px;
 }
 
 .team-social-link {
