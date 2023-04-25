@@ -1289,10 +1289,19 @@ button {
   display: flex;
   justify-content: left;
   flex-wrap: wrap;
-  column-gap: 24px;
   row-gap: 16px;
 
   margin-bottom: 48px;
+}
+
+.portfolio-buttons .item:not(:last-child) {
+    margin-right: 24px;
+  }
+
+@media screen and (min-width: 768px) {
+  .portfolio-buttons .item:not(:last-child) {
+    margin-right: 0;
+  }
 }
 
 .portfolio-btn {
@@ -1359,9 +1368,10 @@ button {
   }
 
   .portfolio-buttons {
+    column-gap: 24px;
     justify-content: center;
   }
-  
+
   .portfolio-btn {
     padding: 12px 24px;
   }
