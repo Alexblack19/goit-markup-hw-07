@@ -1289,7 +1289,7 @@ button {
 .portfolio-buttons {
   display: flex;
   justify-content: left;
-  flex-wrap: wrap;
+  flex-wrap: wrap;  
   row-gap: 16px;
 
   margin-bottom: 48px;
