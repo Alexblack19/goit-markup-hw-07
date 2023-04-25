@@ -411,7 +411,7 @@ button {
     color: var(--mobile-tel-txt-cl);
   }
 
-  @media screen and (max-width: 428px) {
+  @media screen and (max-width: 427px) {
     .mobile-tel-link {
       font-size: 25px;
     }
